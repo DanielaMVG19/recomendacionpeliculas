@@ -1,0 +1,134 @@
+[
+  {
+    "grupo": "2 a 12",
+    "genero": "Drama",
+    "titulo": "Intensamente",
+    "descripcion": "Riley descubre cómo sus emociones la acompañan durante un cambio de ciudad."
+  },
+  {
+    "grupo": "2 a 12",
+    "genero": "Drama",
+    "titulo": "Buscando a Nemo",
+    "descripcion": "Un padre recorre el océano para reencontrarse con su hijo."
+  },
+  {
+    "grupo": "2 a 12",
+    "genero": "Comedia",
+    "titulo": "Toy Story",
+    "descripcion": "Un grupo de juguetes vive una aventura sobre amistad y trabajo en equipo."
+  },
+  {
+    "grupo": "2 a 12",
+    "genero": "Comedia",
+    "titulo": "Paddington",
+    "descripcion": "Un oso llega a Londres y encuentra una nueva familia."
+  },
+  {
+    "grupo": "2 a 12",
+    "genero": "Musical",
+    "titulo": "Frozen",
+    "descripcion": "Dos hermanas descubren el valor del amor y la confianza."
+  },
+  {
+    "grupo": "2 a 12",
+    "genero": "Musical",
+    "titulo": "Encanto",
+    "descripcion": "Una joven busca su lugar en una familia con dones extraordinarios."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Drama",
+    "titulo": "Wonder",
+    "descripcion": "Un estudiante enfrenta una nueva etapa escolar y construye amistades."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Drama",
+    "titulo": "La sociedad de los poetas muertos",
+    "descripcion": "Un profesor inspira a sus alumnos a pensar por sí mismos."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Comedia",
+    "titulo": "Escuela de rock",
+    "descripcion": "Un músico forma una banda con sus alumnos."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Comedia",
+    "titulo": "Un viernes de locos",
+    "descripcion": "Una madre y su hija intercambian cuerpos y aprenden a comprenderse."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Musical",
+    "titulo": "High School Musical",
+    "descripcion": "Dos estudiantes combinan la escuela con su pasión por cantar."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Musical",
+    "titulo": "Hairspray",
+    "descripcion": "Una joven busca un lugar en un programa de baile."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Crimen",
+    "titulo": "Enola Holmes",
+    "descripcion": "Una joven detective investiga la desaparición de su madre."
+  },
+  {
+    "grupo": "13 a 17",
+    "genero": "Crimen",
+    "titulo": "Nancy Drew",
+    "descripcion": "Una adolescente investiga un misterio usando su ingenio."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Drama",
+    "titulo": "Sueño de fuga",
+    "descripcion": "Dos hombres construyen una amistad mientras buscan esperanza en prisión."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Drama",
+    "titulo": "En busca de la felicidad",
+    "descripcion": "Un padre lucha por construir una vida mejor junto a su hijo."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Comedia",
+    "titulo": "La terminal",
+    "descripcion": "Un viajero queda atrapado en un aeropuerto y crea nuevas amistades."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Comedia",
+    "titulo": "El diablo viste a la moda",
+    "descripcion": "Una joven comienza a trabajar en una exigente revista de moda."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Musical",
+    "titulo": "La La Land",
+    "descripcion": "Una actriz y un músico intentan alcanzar sus sueños en Los Ángeles."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Musical",
+    "titulo": "Chicago",
+    "descripcion": "Dos mujeres buscan fama en medio de un escándalo judicial."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Crimen",
+    "titulo": "El padrino",
+    "descripcion": "Una familia de la mafia enfrenta decisiones de poder y lealtad."
+  },
+  {
+    "grupo": "18 o más",
+    "genero": "Crimen",
+    "titulo": "Los infiltrados",
+    "descripcion": "Un policía y un criminal se infiltran en organizaciones rivales."
+  }
+]

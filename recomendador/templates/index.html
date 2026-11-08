@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cine de {{ nombre }} | Recomendador</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<main>
+  <header>
+    <span class="eyebrow">TU PRÓXIMA PELÍCULA EMPIEZA AQUÍ</span>
+    <h1>¡Bienvenidos al cine de {{ nombre }}!</h1>
+    <p>Una historia para cada edad. Encuentra tu próxima película.</p>
+  </header>
+  <section class="panel" aria-labelledby="menu">
+    <div class="step">01 <span>ELIGE TU PLAN</span></div>
+    <h2 id="menu">¿Qué te gustaría ver?</h2>
+    <p>Ingresa tu edad y pulsa el género que más te guste.</p>
+    <form method="post" action="/">
+      <label for="edad">Tu edad</label>
+      <input id="edad" name="edad" type="number" min="2" step="1" placeholder="Ej. 20" value="{{ edad }}" required aria-describedby="edades">
+      <p class="hint" id="edades">Categorías: 2 a 12 · 13 a 17 · 18 o más</p>
+      <div class="genres" role="group" aria-label="Género de película">
+        {% for item in generos %}
+        <button type="submit" name="genero" value="{{ item }}" class="{{ 'selected' if genero == item else '' }}">{{ item }}</button>
+        {% endfor %}
+      </div>
+    </form>
+  </section>
+  <section class="results" aria-labelledby="resultado" aria-live="polite">
+    <div class="step">02 <span>LA FUNCIÓN ES PARA TI</span></div>
+    <h2 id="resultado">Nuestra recomendación</h2>
+    {% if error %}
+      <p class="error" role="alert">{{ error }}</p>
+    {% elif enviado %}
+      <p class="hint">{{ genero }} · Categoría {{ grupo }} años</p>
+      {% if peliculas %}
+      <div class="movies">
+        {% for pelicula in peliculas %}
+        <article class="movie">
+          <span class="tag">{{ pelicula.genero }}</span>
+          <h3>{{ pelicula.titulo }}</h3>
+          <p>{{ pelicula.descripcion }}</p>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="empty">No hay películas de {{ genero | lower }} para esta categoría en el catálogo. Prueba con otro género.</p>
+      {% endif %}
+    {% else %}
+      <p class="empty">Tu próxima historia aparecerá aquí. Selecciona tu edad y un género para comenzar.</p>
+    {% endif %}
+  </section>
+  <footer>Proyecto escolar de {{ nombre }} · Python + Flask + JSON</footer>
+</main>
+</body>
+</html>
